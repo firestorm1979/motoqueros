@@ -1,0 +1,10 @@
+body{
+    background-color: green;
+}
+
+@media (orientation: portrait) and (max-width: 767px) 
+{
+    body{
+        background-color: red;
+    }
+}
