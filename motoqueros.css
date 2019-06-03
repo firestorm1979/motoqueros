@@ -1,10 +1,12 @@
 body{
-    background-color: green;
+    background-color: black;
+    background-image: "fondo_gde.jpg";
 }
 
 @media (orientation: portrait) and (max-width: 767px) 
 {
     body{
-        background-color: red;
+        background-color: black;
+        background-image: "fondo-angos.jpg";
     }
 }
