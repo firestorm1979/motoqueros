@@ -1,13 +1,14 @@
 body{
-    
-    background-image: "fondo_gde.jpg";
-    
+    background-color: black;
+    background-image: url("fondo_gde.jpg");
+    background-size: cover;
 }
 
 @media (orientation: portrait) and (max-width: 767px) 
 {
     body{
-         background-image: "fondo-angos.jpg";
+        background-image: url("fondo-angos.jpg");
+        background-size: cover;
         background-color: black;
     }
 }
